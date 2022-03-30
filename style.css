@@ -1,0 +1,38 @@
+body {
+    background:pink;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+.header_div{
+    background: white;
+    color: red;
+}
+
+.header_div p{
+    font-family: 'Cedarville Cursive', cursive; 
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main_div button{
+    margin-top: 30px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 130px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: dimgrey;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149 , 149);
+    font-size: 18px;
+    font-family: inherit;
+    width: 100%;
+    background-color: aliceblue;
+    bottom: 0;
+    line-height: 3;
+}
