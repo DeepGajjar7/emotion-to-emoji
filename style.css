@@ -1,38 +1,32 @@
-body {
-    background:pink;
-    font-family: 'Courier New', Courier, monospace;
+body
+{
+  color: white;
+  background: #c0d3ff;
 }
- 
-.header_div{
-    background: white;
-    color: red;
+span
+{
+  font-size: 30px;
 }
-
-.header_div p{
-    font-family: 'Cedarville Cursive', cursive; 
-    color: gray;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
 }
-
-.main_div button{
-    margin-top: 30px;
-    letter-spacing: 3px;
-    font-family: sans-serif;
-    font-weight: bolder;
-    width: 130px;
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
 }
-
-.copy_right_footer{
-    position: fixed;
-    color: dimgrey;
-    text-align: center;
-    text-shadow: 5px 5px 5px rgb(151, 149 , 149);
-    font-size: 18px;
-    font-family: inherit;
-    width: 100%;
-    background-color: aliceblue;
-    bottom: 0;
-    line-height: 3;
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 18px;
+   border-radius: 18px;
+    letter-spacing: 18px; 
 }
